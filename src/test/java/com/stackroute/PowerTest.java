@@ -4,7 +4,7 @@ import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.*;
 
 public class PowerTest {
     public static Power power;
@@ -25,10 +25,17 @@ public class PowerTest {
     @Test
     public void testisPower()
     {
-        assertEquals( "isPower(), To check the input string is palindrome ","16 is power of 4",power.isPower(16));
-        assertEquals( "isPower(), To check the input string is palindrome ","8 is not power of 4",power.isPower(8));
-        assertEquals( "isPower(), To check the input string is palindrome ","256 is power of 4",power.isPower(256));
+        assertEquals( "isPower(), Failed to check ","16 is power of 4",power.isPower(16));
+        assertEquals( "isPower(), Failed to check ","8 is not power of 4",power.isPower(8));
+        assertEquals( "isPower(), Failed to check ","256 is power of 4",power.isPower(256));
 
+    }
+
+    @Test
+    public void testisPowerFailure()
+    {
+        assertNotEquals("isPower(), Failed to check ","24 is a power of 4",power.isPower(24));
+        assertNotNull("isPower(), Failed to check ",power.isPower(8));
     }
 
 }

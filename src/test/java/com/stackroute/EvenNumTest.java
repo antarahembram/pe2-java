@@ -4,7 +4,7 @@ import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.*;
 
 public class EvenNumTest {
     public static EvenNum evennum;
@@ -25,9 +25,15 @@ public class EvenNumTest {
     @Test
     public void testEven()
     {
-        assertEquals("isEven(),to check number is even or not",true,evennum.isEven(2));
-        assertEquals("isEven(),to check number is even or not",false,evennum.isEven(5));
-        assertEquals("isEven(),to check number is even or not",true,evennum.isEven(80));
+        assertEquals("isEven(),checking is failed",true,evennum.isEven(2));
+        assertEquals("isEven(),checking is failed",false,evennum.isEven(5));
+        assertEquals("isEven(),checking is failed",true,evennum.isEven(80));
 
+    }
+
+    @Test
+    public void testEvenFailure()
+    {
+        assertNotEquals("isEven(),checking is failed",false,evennum.isEven(10));
     }
 }

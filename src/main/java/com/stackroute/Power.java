@@ -26,7 +26,7 @@ public class Power {
         else{
             ans=ans+m+" is not power of 4";
         }
-      //  System.out.println(ans);
+      System.out.println(ans);
         return ans;
     }
 }

@@ -2,29 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de91bac4-9af4-489d-a31b-f04df36c1a14" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/EvenNum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/Factorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/Palindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/Power.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/StudentGrade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/stackroute/EvenNumTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/stackroute/FactorialTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/stackroute/MemberTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/stackroute/PalindromeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/stackroute/PowerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/stackroute/StudentGradeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/stackroute/UserTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/stackroute/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/stackroute/App$EvenNumTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/stackroute/App$Member.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/stackroute/App$User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/stackroute/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/stackroute/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/Factorial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/Power.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/Power.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/stackroute/EvenNumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/stackroute/EvenNumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/stackroute/FactorialTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/stackroute/FactorialTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/stackroute/MemberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/stackroute/MemberTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/stackroute/PalindromeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/stackroute/PalindromeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/stackroute/PowerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/stackroute/PowerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/stackroute/StudentGradeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/stackroute/StudentGradeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/stackroute/UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/stackroute/UserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/stackroute/Factorial.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/stackroute/Factorial.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/stackroute/Power.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/stackroute/Power.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/stackroute/EvenNumTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/stackroute/EvenNumTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/stackroute/FactorialTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/stackroute/FactorialTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/stackroute/MemberTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/stackroute/MemberTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/stackroute/PalindromeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/stackroute/PalindromeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/stackroute/PowerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/stackroute/PowerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/stackroute/StudentGradeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/stackroute/StudentGradeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/stackroute/UserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/stackroute/UserTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +64,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MemberTest.testdisplay">
+  <component name="RunManager" selected="JUnit.FactorialTest">
     <configuration name="FactorialTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PE2(test)" />
       <extension name="coverage">
@@ -84,7 +80,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MemberTest.testdisplay" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MemberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PE2(test)" />
       <extension name="coverage">
         <pattern>
@@ -94,13 +90,12 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.stackroute" />
       <option name="MAIN_CLASS_NAME" value="com.stackroute.MemberTest" />
-      <option name="METHOD_NAME" value="testdisplay" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentGradeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PalindromeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PE2(test)" />
       <extension name="coverage">
         <pattern>
@@ -109,7 +104,22 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.stackroute" />
-      <option name="MAIN_CLASS_NAME" value="com.stackroute.StudentGradeTest" />
+      <option name="MAIN_CLASS_NAME" value="com.stackroute.PalindromeTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PowerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PE2(test)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stackroute.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.stackroute" />
+      <option name="MAIN_CLASS_NAME" value="com.stackroute.PowerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -130,29 +140,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserTest.testgetFullName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PE2(test)" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.stackroute.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.stackroute" />
-      <option name="MAIN_CLASS_NAME" value="com.stackroute.UserTest" />
-      <option name="METHOD_NAME" value="testgetFullName" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MemberTest.testdisplay" />
-        <item itemvalue="JUnit.UserTest" />
-        <item itemvalue="JUnit.UserTest.testgetFullName" />
         <item itemvalue="JUnit.FactorialTest" />
-        <item itemvalue="JUnit.StudentGradeTest" />
+        <item itemvalue="JUnit.MemberTest" />
+        <item itemvalue="JUnit.PowerTest" />
+        <item itemvalue="JUnit.PalindromeTest" />
+        <item itemvalue="JUnit.UserTest" />
       </list>
     </recent_temporary>
   </component>
@@ -179,5 +173,21 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/stackroute/PalindromeTest.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/stackroute/FactorialTest.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -4,7 +4,7 @@ import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.*;
 
 public class StudentGradeTest {
     public static StudentGrade stugrade;
@@ -32,26 +32,42 @@ public class StudentGradeTest {
     @Test
     public void testAverage()
     {
-        assertEquals("average()",81.5,stugrade.Average(g1),DELTA);
-        assertEquals("average()",70.2,stugrade.Average(g2),DELTA);
-        assertEquals("average()",81.4,stugrade.Average(g3),DELTA);
+        assertEquals("average() is  failed",81.5,stugrade.Average(g1),DELTA);
+        assertEquals("average() is  failed",70.2,stugrade.Average(g2),DELTA);
+        assertEquals("average() is  failed",81.4,stugrade.Average(g3),DELTA);
 
+    }
+    @Test
+    public void testAverageFailure() {
+        assertNotEquals("average() is  failed", 50, stugrade.Average(g1), DELTA);
     }
 
     @Test
     public void testMax()
     {
-        assertEquals("Max()",98,stugrade.Max(g1));
-        assertEquals("Max()",92,stugrade.Max(g2));
-        assertEquals("Max()",90,stugrade.Max(g3));
+        assertEquals("Max() is  failed",98,stugrade.Max(g1));
+        assertEquals("Max() is  failed",92,stugrade.Max(g2));
+        assertEquals("Max() is  failed",90,stugrade.Max(g3));
+    }
+
+    @Test
+    public void testMaxFailure()
+    {
+        assertNotEquals("Max() is  failed",65,stugrade.Max(g1));
 
     }
     @Test
     public void testMin()
     {
-        assertEquals("Min()",65,stugrade.Min(g1));
-        assertEquals("Min()",35,stugrade.Min(g2));
-        assertEquals("Min()",65,stugrade.Min(g3));
+        assertEquals("Min() is  failed",65,stugrade.Min(g1));
+        assertEquals("Min() is  failed",35,stugrade.Min(g2));
+        assertEquals("Min() is  failed",65,stugrade.Min(g3));
 
+    }
+
+    @Test
+    public void testMinFailure()
+    {
+        assertNotEquals("Min() is  failed",90,stugrade.Min(g3));
     }
 }

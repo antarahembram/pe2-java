@@ -4,7 +4,7 @@ import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.*;
 
 public class PalindromeTest {
 
@@ -35,9 +35,17 @@ public class PalindromeTest {
     @Test
     public void testisPalindrome()
     {
-        assertEquals( "isPalindrome(), To check the input string is palindrome ","Given string is palindrome",pal.isPalindrome("abba"));
-        assertEquals( "isPalindrome(), To check the input string is palindrome ","Given string is not palindrome",pal.isPalindrome("abcd"));
-        assertEquals( "isPalindrome(), To check the input string is palindrome ","Given string is palindrome",pal.isPalindrome("1234321"));
+        assertEquals( "isPalindrome(), To check if failed ","Given string is palindrome",pal.isPalindrome("abba"));
+        assertEquals( "isPalindrome(), To check if failed","Given string is not palindrome",pal.isPalindrome("abcd"));
+        assertEquals( "isPalindrome(), To check if failed","Given string is palindrome",pal.isPalindrome("1234321"));
     }
+
+    @Test
+    public void testisPalindromeFailure()
+    {
+        assertNotEquals("isPalindrome(), To check if failed","Given string is palindrome",pal.isPalindrome("kjsh"));
+        assertNotNull("isPalindrome(), check is failed ",pal.isPalindrome("abcba"));
+    }
+
 
 }

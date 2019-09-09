@@ -5,6 +5,7 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotEquals;
 
 public class MemberTest {
     private static Member_variable member;
@@ -26,13 +27,20 @@ public class MemberTest {
     public void  testdisplay()
     {
         member.set("Antara",22,1000.0);
-        assertEquals("show",new String[]{"Name: Antara", "Age: 22", "Salary: 1000.0"},member.display());
+        assertEquals("display is falied",new String[]{"Name: Antara", "Age: 22", "Salary: 1000.0"},member.display());
 
         member.set("Harry",22,2000.0);
-        assertEquals("show",new String[]{"Name: Harry", "Age: 22", "Salary: 2000.0"},member.display());
+        assertEquals("display is falied",new String[]{"Name: Harry", "Age: 22", "Salary: 2000.0"},member.display());
 
         member.set("Ron",22,10000.0);
-        assertEquals("show",new String[]{"Name: Ron", "Age: 22", "Salary: 10000.0"},member.display());
+        assertEquals("display is falied",new String[]{"Name: Ron", "Age: 22", "Salary: 10000.0"},member.display());
+
+    }
+    @Test
+    public void testdisplayFailure()
+    {
+        member.set("Ants",22,10010.0);
+        assertNotEquals("display is falied",new String[]{"Name: Antara", "Age: 22", "Salary: 1000.0"},member.display());
 
     }
 }
