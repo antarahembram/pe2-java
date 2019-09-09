@@ -29,6 +29,18 @@ public class UserTest {
     //User user3=new User("Ram","Das",22,204900);
 
     @Test
+    public void testensureAge()
+    {
+        user.setVal("Antara","Hembram",22,204900);
+        assertEquals("getFullName(), printing full name is failed","No error in age",user.ensureage());
+
+        user.setVal("Harry","Potter",120,20490);
+        assertEquals("getFullName(), printing full name is failed","Error in age",user.ensureage());
+
+        user.setVal("Ron","Das",22,204900);
+        assertEquals("getFullName(), printing full name is failed","No error in age",user.ensureage());
+    }
+    @Test
     public void testgetFullName()
     {
         user.setVal("Antara","Hembram",22,204900);

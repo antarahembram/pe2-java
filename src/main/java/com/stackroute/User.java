@@ -12,6 +12,21 @@ public class User {
         this.Age=age;
         this.Salary=sal;
     }
+
+    public String ensureage()
+    {
+        String err="Error in age";
+        String noerr="No error in age";
+        if(this.Age<0  || this.Age >100)
+        {
+            return err;
+        }
+        else
+        {
+            return noerr;
+        }
+
+    }
     public String getFullName()
     {
         String full=this.firstName+" "+this.lastName;
@@ -20,7 +35,7 @@ public class User {
     public String validAge()
     {
         String ans="";
-        if(this.Age<0 || this.Age>100)
+        if(this.Age<18 || this.Age>60)
         {
             ans=ans+"Age is not valid";
         }
