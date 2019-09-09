@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de91bac4-9af4-489d-a31b-f04df36c1a14" name="Default Changelist" comment="" />
+    <list default="true" id="de91bac4-9af4-489d-a31b-f04df36c1a14" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/EvenNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/Factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/Palindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/Power.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/StudentGrade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/stackroute/EvenNumTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/stackroute/FactorialTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/stackroute/MemberTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/stackroute/PalindromeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/stackroute/PowerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/stackroute/StudentGradeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/stackroute/UserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/stackroute/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/stackroute/App$EvenNumTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/stackroute/App$Member.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/stackroute/App$User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/stackroute/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/stackroute/AppTest.class" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,6 +35,16 @@
   <component name="FavoritesManager">
     <favorites_list name="PE2" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -19,6 +53,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1QXguhacZKPTEBJAm6DOYmP3wWE" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -31,8 +68,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AppTest">
-    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MemberTest.testdisplay">
+    <configuration name="FactorialTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PE2(test)" />
       <extension name="coverage">
         <pattern>
@@ -41,13 +78,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.stackroute" />
-      <option name="MAIN_CLASS_NAME" value="com.stackroute.AppTest" />
+      <option name="MAIN_CLASS_NAME" value="com.stackroute.FactorialTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.testAverage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MemberTest.testdisplay" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PE2(test)" />
       <extension name="coverage">
         <pattern>
@@ -56,14 +93,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.stackroute" />
-      <option name="MAIN_CLASS_NAME" value="com.stackroute.AppTest" />
-      <option name="METHOD_NAME" value="testAverage" />
+      <option name="MAIN_CLASS_NAME" value="com.stackroute.MemberTest" />
+      <option name="METHOD_NAME" value="testdisplay" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.testMax" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StudentGradeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PE2(test)" />
       <extension name="coverage">
         <pattern>
@@ -72,14 +109,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.stackroute" />
-      <option name="MAIN_CLASS_NAME" value="com.stackroute.AppTest" />
-      <option name="METHOD_NAME" value="testMax" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="com.stackroute.StudentGradeTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.testMin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PE2(test)" />
       <extension name="coverage">
         <pattern>
@@ -88,14 +124,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.stackroute" />
-      <option name="MAIN_CLASS_NAME" value="com.stackroute.AppTest" />
-      <option name="METHOD_NAME" value="testMin" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="com.stackroute.UserTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.testisPalindrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserTest.testgetFullName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PE2(test)" />
       <extension name="coverage">
         <pattern>
@@ -104,8 +139,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.stackroute" />
-      <option name="MAIN_CLASS_NAME" value="com.stackroute.AppTest" />
-      <option name="METHOD_NAME" value="testisPalindrome" />
+      <option name="MAIN_CLASS_NAME" value="com.stackroute.UserTest" />
+      <option name="METHOD_NAME" value="testgetFullName" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -113,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AppTest" />
-        <item itemvalue="JUnit.AppTest.testAverage" />
-        <item itemvalue="JUnit.AppTest.testMin" />
-        <item itemvalue="JUnit.AppTest.testMax" />
-        <item itemvalue="JUnit.AppTest.testisPalindrome" />
+        <item itemvalue="JUnit.MemberTest.testdisplay" />
+        <item itemvalue="JUnit.UserTest" />
+        <item itemvalue="JUnit.UserTest.testgetFullName" />
+        <item itemvalue="JUnit.FactorialTest" />
+        <item itemvalue="JUnit.StudentGradeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -133,5 +168,16 @@
       <updated>1567922578404</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
