@@ -1,27 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de91bac4-9af4-489d-a31b-f04df36c1a14" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/Factorial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/Power.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/Power.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/stackroute/EvenNumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/stackroute/EvenNumTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/stackroute/FactorialTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/stackroute/FactorialTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/stackroute/MemberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/stackroute/MemberTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/stackroute/PalindromeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/stackroute/PalindromeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/stackroute/PowerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/stackroute/PowerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/stackroute/StudentGradeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/stackroute/StudentGradeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/stackroute/UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/stackroute/UserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/stackroute/Factorial.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/stackroute/Factorial.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/stackroute/Power.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/stackroute/Power.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/stackroute/EvenNumTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/stackroute/EvenNumTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/stackroute/FactorialTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/stackroute/FactorialTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/stackroute/MemberTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/stackroute/MemberTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/stackroute/PalindromeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/stackroute/PalindromeTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/stackroute/PowerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/stackroute/PowerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/stackroute/StudentGradeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/stackroute/StudentGradeTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/stackroute/UserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/stackroute/UserTest.class" afterDir="false" />
-    </list>
+    <list default="true" id="de91bac4-9af4-489d-a31b-f04df36c1a14" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
